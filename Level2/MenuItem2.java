@@ -13,17 +13,6 @@ public class MenuItem2 {
         this.desc = desc;
     }
 //메서드 영역
-    //Getter 메서드
-    //아래 toString 메서드로 인해 Getter 메서드는 쓰임새가 당장 없다.
-    public String getName () {
-        return name;
-    }
-    public double getPrice () {
-        return price;
-    }
-    public String getDesc () {
-        return desc;
-    }
     //toString 메서드로 주소값을 문자열로 바꿔서 보여주게한다.
     //override로 재정의
     @Override
